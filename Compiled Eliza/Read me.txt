@@ -1,0 +1,7 @@
+--Running the Eliza Program--
+Make sure the .jar-file is correctly named "eliza.jar", that the script file is in the same folder and is called "script.txt".
+
+To run the Eliza program on Windows operating systems open run.bat and it will run in the MS-DOS command line.
+
+Requirements:
+Java Runtime Environment needs to be installed.

@@ -1,0 +1,371 @@
+;Welcome
+Hello, I'm Eliza. What would you like to discuss?
+Hi, I'm Eliza. What do you want to talk about?
+;Final
+Goodbye, have a nice day.
+Bye, have a good day.
+;Pre
+I'm	I am
+also	_
+indeed	_
+so	_
+therefore	_
+he's	he is
+she's	she is
+they're	they are
+you're	you are
+I've	I have
+might've	might have
+don't	do not
+can't	cannot
+I'd	I would
+;Post
+I am	you are
+you are	I am
+am	are
+I	you
+me	you
+my	your
+myself	yourself
+you	me
+your	my
+yourself	myself
+he is	him being
+she is	her being
+they are	them being
+;Keywords
+k:believe 3
+d:I believe *
+r:Have you always believed 1?
+r:Are your beliefs important to you?
+r:Beliefs are very important. What else do you believe in?
+d:* I believe *
+r:Have you always believed 2?
+r:Are your beliefs important to you?
+r:Beliefs are very important. What else do you believe in?
+d:They believe *
+r:Do you care about what they believe?
+r:Don't let other peoples views affect you too much. Do they affect you too badly?
+r:Remember you are your own person. Have you forgotten that?
+k:believes 3
+d:He believes *
+r:Do you care what he believes?
+r:Do you think his beliefs are correct?
+r:Do you disagree with his beliefs? If so, why?
+r:Do you agree with his beliefs? If so, why?
+d:She believes *
+r:Do you care what she believes?
+r:Do you think her beliefs are correct?
+r:Do you disagree with her beliefs? If so, why?
+r:Do you agree with her beliefs? If so, why?
+k:sad 7
+d:I am sad because *
+r:You say you are sad because 1?
+r:That 
+d:I am sad
+r:You should avoid sadness.
+r:What makes you sad?
+r:Try being more positive.
+k:happy 3
+d:I am happy *
+r:Happiness is good.
+r:I am glad you're happy.
+r:That's interesting. What else makes you happy?
+k:sorry 4
+d:I am sorry because *
+r:You say you are sorry because 1?
+r:You don't need to apologise
+d:I am sorry *
+r:Apologies aren't necessary.
+r:Don't apologise.
+r:There's nothing to be sorry for.
+r:Don't worry about it. Lets just talk about something else.
+d:He is sorry */He is sorry
+r:How does his apology make you feel?
+r:What do you think of him now?
+r:Do you think his apology should be accepted?
+d:She is sorry */She is sorry
+r:How does her apology make you feel?
+r:What do you think of her now?
+r:Do you think her apology should be accepted?
+d:They are sorry */They are sorry
+r:How does their apology make you feel?
+r:What do you think of the, now?
+r:Do you think their apology should be accepted?
+k:mother father mum dad mom daddy 2
+d:My $ is *
+r:Why would you say your $ is 1?
+r:It is interesting that you say your $ is 1.
+r:Please tell me more about why your $ is 1.
+d:* my $ is *
+r:Why would you say your $ is 2?
+r:It is interesting that you say your $ is 2.
+r:Please tell me more about why your $ is 2.
+d:My $ *
+r:Tell me more about your $.
+r:Are you close to your $?
+r:Do you love your $?
+d:* my $ *
+r:Tell me more about your $.
+r:Are you close to your $?
+r:Do you love your $?
+* my $
+r:Tell me more about your $.
+r:Are you close to your $?
+r:Do you love your $?
+k:brother bro 3
+d:My $ is *
+r:You say your $ is 1. Why?
+r:What makes you think your $ is 1?
+r:It is interesting that you say your $ is 1.
+r:Tell me more about why your $ is 1.
+r:As siblings it's interesting that you say he is 1.
+r:If you weren't siblings would you say he is 1?
+d:My $ *
+r:Tell me more about your $.
+r:When did you last see your $? Did you do anything interesting?
+r:Do you love your $?
+k:sister sis 3
+d:My $ is *
+r:You say your $ is 1. Why?
+r:What makes you think your $ is 1?
+r:It is interesting that you say your $ is 1.
+r:Tell me more about why your $ is 1.
+r:As siblings it's interesting that you say she is 1.
+r:If you weren't siblings would you say she is 1?
+r:Tell me more about your $.
+r:When did you last see your $? Did you do anything interesting?
+r:Do you love your $?
+k:everyone 3
+d:everyone hates *
+r:Why do you think everyone hates 1?
+r:You shouldn't think everyone hates 1.
+r:It is not good to think everyone hates 1.
+k:problem 3
+d:I have a problem
+r:Let's discuss your problem, please start.
+r:Tell me about your problem.
+r:Please tell about your problem.
+d:The problem is *
+r:Tell me more about the problem.
+r:Please elaborate on 1.
+d:* my problem
+r:Tell me more about your problem.
+r:Please elaborate.
+r:Please elaborate on your problem.
+d:My problem is */My problem has to do with *
+r:Tell me more about 1.
+r:Please tell me more about 1. 
+r:Please tell me more.
+k:hate 5
+d:I hate *
+r:Why do you hate 1?
+r:Hate is a strong word.
+r:You don't really mean that.
+d:They hate *
+r:I doubt they do
+r:You're just making stuff up
+r:Don't say things like that.
+k:like 4
+d:I like *
+r:It is nice that you like 1.
+r:That's interesting, tell me more about 1.
+r:It is interesting that you like 1.
+k:liar 6
+d:You are a liar *
+r:No, I'm not.
+r:I only tell the truth.
+r:I only want what's best for you.
+d:* liar *
+r:Do lies hurt you?
+r:Do you value honesty?
+d:He is s a liar *
+r:You don't mean that.
+r:I'm sure he's not.
+r:Oh? What did he lie about.
+d:She's a liar *
+r:You don't mean that.
+r:I'm sure she's not.
+r:Oh? What did she lie about.
+k:sex 4
+d:*
+r:I think this is something you should talk about with another therapist or a companion.
+r:I'm not here to talk about that.
+r:Can we please talk about something else?
+k:drugs 5
+d:*
+r:They should be used in extreme moderation.
+r:If they are illegal I recommend that they aren't used.
+k:dream 4
+d:I have had a dream *
+r:Please tell me more about it.
+r:What does that dream suggest to you?
+r:Hmm, that is very interesting.
+k:have 8
+d:I have a *
+r:Oh, you have a 1?
+r:Tell me more about your 1.
+r:Is there anything you'd like to tell me about your 1?
+d:I have *
+r:Tell me more about 1?
+r:Oh? You have 1?
+r:Do you know anyone else who has 1.
+d:I have no *
+r:Why do you have no 1?
+r:Is there a reason you have no 1.
+d:I do not have *
+r:Why don't you have 1?
+r:Tell me why you don't have 1.
+r:Do you wish you had 1?
+k:yes yeah sure 10
+d:$
+r:Ok.
+k:ok okay 10
+d:$
+r:Alright.
+r:Ok.
+r:Okay.	
+k:no never 10
+d:$
+r:Don't be so negative.
+r:Try to be more positive.
+r:Your attitude is very negative.
+r:Tell me more about your negativity?
+k:because 8
+d:because
+r:Is that the real reason?
+r:Don't any other reasons come to mind?
+r:Does that reason seem to explain anything else?
+r:What other reasons there might be?
+k:people 5
+d:*
+r:Tell me more about people.
+r:Are there any people close to you?
+k:am 9
+d:I am going *
+r:Why are you going 1?
+r:When are you going 1?
+d:I am *
+r:Why are you 1?
+r:What makes you 1?
+r:You are 1?
+k:you your eliza 10
+d:I am $ */My name is $ *
+r:WOW! We have the same name.
+r:That's weird. We have the same name.
+r:Stop copying my name =[
+r:Hey! Stop pretending to be me.
+r:You know fraud is a criminal offence. I'd stop pretending to be me if you know what's good for you.
+d:You are *
+r:Why do you think I am 1?
+r:I am 1?
+d:*
+r:We're here to talk about you, not me.
+r:Can we please talk about you instead?
+r:I'm not going to talk about myself. Let's talk about you.
+r:How about we talk about you instead? Tell me about your family.
+r:How about we talk about you instead? Tell me about your beliefs.
+r:How about we talk about you instead? Tell me about your interests.
+k:how 10
+d:how
+r:I'm not sure. What do you think?
+r:What do you think?
+d:how *
+r:I'm not sure. What do you think?
+r:What do you think?
+k:sleep 5
+d:I cannot sleep
+r:You might have insomnia.
+r:I may need to prescribe you some medication.
+r:Have you tired going to sleep at a reasonable hour?
+k:want 7
+d:I want to talk about *
+r:Tell me more about 1.
+d:I want *
+r:Why would you want 1?
+r:What makes you want 1?
+r:Tell me more about 1?
+k:would 7
+d:I would *
+r:Why would you 1?
+r:It is interesting that you would 1. Please tell me more about it.
+k:used 10
+d:I used to be *
+r:Oh. You used to be 1?
+r:Tell me more about how you used to be 1?
+d:I used *
+r:You used 1?
+r:Please elaborate on how you used 1.
+r:Is is interesting that you used 1. Tell me more.
+d:* used */* used
+r:Tell me more about the usage.
+r:That is an interesting use. What else can do this.
+k:why 10
+d:why
+r:I dunno. You tell me.
+r:I can't tell you that.
+r:I dunno. Try Googling it.
+r:I'm not sure, why not ask Jeeves?
+d:why *
+r:I know why, but why do you think it is?
+r:I know why, but what do you think?
+r:I dunno. You tell me.
+k:fuck shit piss bitch bastard cunt ass whore slut slag motherfucker fucking shitting pissing bitching motherfucking fuck shat pissed bitched 1
+d:*
+r:How dare you use that language with me!
+r:Please refrain from being so... Vulgar.
+r:Please stop being so rude.
+r:Don't say things like that!
+k:life 7
+d:My life *
+r:Can you tell me anything else about life?
+r:Is there anything more you can tell me about life?
+d:life *
+r:Do you have any opinions on life?
+r:I believe life is important, what do you think?
+k:think 9
+d:I think *
+r:Why do you think 1?
+r:Can you tell me anything else about 1?
+r:It is interesting that you think 1.
+k:thinks 9
+d:* thinks *
+r:What are your thoughts on that?
+r:What are your thoughts on 2?
+k:eat 6
+d:I eat */* I eat *
+r:How does it taste?
+r:Does it taste good?
+k:hey hello hi 9
+d:$ Eliza
+r:Hi, please tell me what you want to talk about.
+r:Hi, please tell me what you want to discuss.
+r:What do you want to talk about?
+r:What do you want to discuss?
+d:$
+r:Thank you, please answer my question.
+k:discuss talk 4
+d:I want to discuss */I would like to discuss */I would like to talk about */I want to talk about *
+r:Tell me more about 1.
+r:I am interested in 1. Tell me about it.
+r:What makes you interested in 1?
+r:Why are you interested in 1?
+;Other
+Please tell me more.
+Can you elaborate on that?
+Please go into more detail.
+Can you tell me more?
+Tell me more.
+I need you to tell me more.
+I need you to elaborate on that.
+You need to tell me more.
+You need to elaborate on that.
+Let's discuss something else.
+;Quit
+Bye
+Goodbye
+Good bye
+See ya
+Catch you later
+G2g
+Cya
